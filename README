@@ -8,3 +8,14 @@ Dependences:
     python-serial,
     python-gst0.10,
     and python-gtk2 for GUI
+
+Running:
+Run "python2 atdrv.py" and then "python2 gui.py"
+
+Then "Mobile broadband" unchecked in Network-Manager menu (port released), "atdrv"  captures modem interface and indicates incoming calls via DBUS, also able to outgoing calls.
+"Gui" listens dbus signals and provide user interface.
+
+You can write your own user interface such as unity-indicator or shell extension. I planning it for later.
+
+Known issues:
+    about one second incoming voice delay.
