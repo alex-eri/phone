@@ -1,1 +1,10 @@
-This file was created by PyCharm 2.7 for binding GitHub repository
+Able to voice calls on Huawei and ZTE 3g-dongles.
+
+Dependences:
+    modemmanager,
+    python2,
+    python-dbus,
+    python-gobject,
+    python-serial,
+    python-gst0.10,
+    and python-gtk2 for GUI
