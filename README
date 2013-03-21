@@ -11,6 +11,8 @@ Dependences:
 
 Running:
 Run "python2 atdrv.py" and then "python2 gui.py"
+User must be in "uucp" group.
+
 
 Then "Mobile broadband" unchecked in Network-Manager menu (port released), "atdrv"  captures modem interface and indicates incoming calls via DBUS, also able to outgoing calls.
 "Gui" listens dbus signals and provide user interface.
